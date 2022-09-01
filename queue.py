@@ -35,7 +35,7 @@ class Queue:
             try:
                 raise Empty
             except Empty:
-                print("Satck is Empty.")
+                print("Queue is Empty.")
             return None
         return self._data[self._front]
 
@@ -44,7 +44,7 @@ class Queue:
             try:
                 raise Empty
             except Empty:
-                print("Satck is Empty.")
+                print("Queue is Empty.")
             return None
         answer = self._data[self._front]
         self._data[self._front] = None

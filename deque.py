@@ -1,6 +1,6 @@
 
 """
-This is Deque implementation using array based sequences.
+This is Double Ended Queue (deque) implementation using array based sequences.
 """
 
 ###################################################################################################
